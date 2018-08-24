@@ -1,0 +1,10 @@
+graphql:
+  servlet:
+    mapping: /demo
+    enabled: true
+    corsEnabled: true
+graphiql:
+    mapping: /demotest
+    endpoint: /demo
+    enabled: true
+    pageTitle: Demo Test
